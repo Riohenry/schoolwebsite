@@ -11,7 +11,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./images/backgrounds/page-title.JPG);
+    /* background-image: url(./images/backgrounds/page-title.JPG); */
+    background-color: gray;
 }
 .container{
     position: relative;
@@ -44,12 +45,15 @@ body{
     margin-top: 16px;
     min-height: 490px;
     background-color: #fff;
-    overflow: hidden;
+    overflow-y: auto;
 }
 .container form .form{
     position: absolute;
     background-color: #fff;
     transition: 0.3s ease;
+    /* background-image: url(./images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center; */
 }
 .container form .form.second{
     opacity: 0;

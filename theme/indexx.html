@@ -13,15 +13,63 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <title>welocome to kira regatrastion form </title> 
+             <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon." type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
 </head>
 <body>
     <div class="container">
+
+        <div class="top-header py-2 bg-white">
+            <div class="container">
+              <div class="row no-gutters">
+                <div class="col-lg-4 text-center text-lg-left">
+                  <a class="text-color mr-3" href="tel:+256700529224"><strong>CALL</strong> +256700529224</a>
+                  <ul class="list-inline d-inline">
+                    <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://facebook.com//"><i class="ti-facebook"></i></a></li>
+                    <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/"><i class="ti-twitter-alt"></i></a></li>
+                    <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://github.com/"><i class="ti-github"></i></a></li>
+                    <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://instagram.com//"><i class="ti-instagram"></i></a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-8 text-center text-lg-right">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="./index.html" style="color: blue;">KIRA SECONDARY SCHOOL NAMUGONGO</a></li>
+                    <!-- <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="rresearch.html">research</a></li>
+                    <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="sscholarship.html">SCHOLARSHIP</a></li> -->
+                    <!-- <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#lloginModal" data-toggle="modal" data-target="#loginModal">login</a></li> -->
+                    <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="./index.html" data-toggle="" data-target="#signupModal" style="color: red;"> <button style="font-size: 15px; background-color: black;  color: red;">BACK</button></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+         
         <header>Registration now</header>
+
+
 
         <form action="#">
             <div class="form first">
                 <div class="details personal">
-                    <span class="title">Personal Details</span>
+                    <span class="title">student's Details</span>
 
                     <div class="fields">
                         <div class="input-field">
@@ -93,39 +141,46 @@
 
 
                 </div>
+                 
+                             <!-- secondary information for student -->
 
                 <div class="details ID">
                     <span class="title">Identity Details for parent</span>
 
                     <div class="fields">
                         <div class="input-field">
-                            <label>Full names </label>
-                            <input type="text" placeholder="Enter your full names" required>
+                            <label>Your former school</label>
+                            <input type="text" placeholder="Enter  your NiN number" required>
                         </div>
 
                         <div class="input-field">
-                            <label>Relationship</label>
-                            <input type="number" placeholder="what is your Relationship " required>
+                            <label>Index number </label>
+                            <input type="text" placeholder="Enter your index number" required>
                         </div>
 
                         <div class="input-field">
-                            <label>Your occupation</label>
-                            <input type="text" placeholder="Enter  your occupation" required>
+                            <label>NIN</label>
+                            <input type="type" placeholder="Enter  your NiN number " required>
                         </div>
 
                         <div class="input-field">
-                            <label>Nationality</label>
-                            <input type="text" placeholder="Enter  your nationality" required>
+                            <label>Agreets</label>
+                            <input type="number" placeholder="Enter  your agreets" required>
                         </div>
 
-                        <div class="input-field">
-                            <label>workplace</label>
-                            <input type="date" placeholder="Enter your workplace" required>
+                        <div class="input-field" required="">
+                            <label>Class applied for</label>
+                            <input type="type" placeholder="Class applied for" required>
                         </div>
+                        
+                        <div class="input-field" >
+                            <label>Day | Boarding ?</label>
+                            <select required>
+                                <option disabled selected>Select position</option>
+                                <option>DAY</option>
+                                <option>BOADING</option>
 
-                        <div class="input-field">
-                            <label>District</label>
-                            <input type="date" placeholder="Enter district" required>
+                            </select>
                         </div>
                     </div>
 
@@ -135,6 +190,45 @@
                     </button>
                 </div> 
             </div>
+                                
+                         <!-- next changes  -->
+            
+                         <div class="details family">
+                            <span class="title">Family Details</span>
+        
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Father Name</label>
+                                    <input type="text" placeholder="Enter father name" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Mother Name</label>
+                                    <input type="text" placeholder="Enter mother name" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Next in ken</label>
+                                    <input type="text" placeholder="Enter grandfther name" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Spouse Name</label>
+                                    <input type="text" placeholder="Enter spouse name " required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Father in Law</label>
+                                    <input type="text" placeholder="Father in law name" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Mother in Law</label>
+                                    <input type="text" placeholder="Mother in law name" required>
+                                </div>
+                            </div>
+
+
 
             <div class="form second">
                 <div class="details address">
@@ -173,40 +267,7 @@
                     </div>
                 </div>
 
-                <div class="details family">
-                    <span class="title">Family Details</span>
 
-                    <div class="fields">
-                        <div class="input-field">
-                            <label>Father Name</label>
-                            <input type="text" placeholder="Enter father name" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Mother Name</label>
-                            <input type="text" placeholder="Enter mother name" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Grandfather</label>
-                            <input type="text" placeholder="Enter grandfther name" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Spouse Name</label>
-                            <input type="text" placeholder="Enter spouse name" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Father in Law</label>
-                            <input type="text" placeholder="Father in law name" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Mother in Law</label>
-                            <input type="text" placeholder="Mother in law name" required>
-                        </div>
-                    </div>
 
                     <div class="buttons">
                         <div class="backBtn">
